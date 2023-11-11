@@ -1,13 +1,13 @@
 "use client";
 
-import About from "@/components/About";
-import Education from "@/components/Education";
-import Skills from "@/components/Skills";
-import Experience from "@/components/Experience";
-import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
-import Navbar from "@/components/Navbar";
-import themes from "@/utils/theme";
+import About from "../components/About";
+import Education from "../components/Education";
+import Skills from "../components/Skills";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+import Navbar from "../components/Navbar";
+import themes from "../utils/theme";
 
 import { useState } from "react";
 

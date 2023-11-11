@@ -1,8 +1,8 @@
 import Image from "next/image";
-import githubIcon from "@/public/GitHub_Logo.png";
-import githubMark from "@/public/Github_Mark.png";
-import githubIconBlack from "@/public/GitHub_Logo_Black.png";
-import githubMarkBlack from "@/public/GitHub_Mark_Black.png";
+import githubIcon from "../../public/GitHub_Logo.png";
+import githubMark from "../../public/Github_Mark.png";
+import githubIconBlack from "../../public/GitHub_Logo_Black.png";
+import githubMarkBlack from "../../public/GitHub_Mark_Black.png";
 
 export default function GithubIcon({
     href,

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import linkedInLogo from "@/public/LinkedIn_Logo.png";
+import linkedInLogo from "../public/LinkedIn_Logo.png";
 import GithubIcon from "./common/GithubIcon";
 
 export default function Contact({
