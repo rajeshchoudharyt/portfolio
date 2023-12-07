@@ -6,7 +6,7 @@ const projects = [
             "A personal portfolio website developed using Next and Tailwind with multiple themes and styles.",
         skills: "Next.js, TypeScript, Tailwind CSS",
         url: "https://github.com/rajeshchoudharyt/portfolio",
-        live: "/",
+        live: "/portfolio",
     },
     {
         title: "Counterfeit Product Identification System",
