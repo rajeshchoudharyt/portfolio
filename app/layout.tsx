@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
     title: "Portfolio",
     description: "Profile",
 };
-
-const roboto = Roboto_Mono({
-    weight: "400",
-    subsets: ["latin"],
-});
 
 export default function RootLayout({
     children,
@@ -18,9 +13,12 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={roboto.className}>
+        <html
+            lang="en"
+            className="font-sans leading-loose tracking-wide text-stone-500 bg-white">
             <body>
-                <div className="relative top-10">{children}</div>
+                <Navbar />
+                <div>{children}</div>
             </body>
         </html>
     );

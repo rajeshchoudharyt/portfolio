@@ -1,41 +1,31 @@
-import ListItem from "./common/ListItem";
-
-const skills = [
-    "HTML5",
-    "CSS3",
-    "JavaScript",
-    "React",
-    "Bootstrap",
-    "Figma",
-    "Microsoft Azure",
-    "Microsoft Authentication Library",
-    "Microsoft Graph API",
-    "Postman (Test Script)",
-];
-
-export default function Experience({ theme }: { theme: { border: string } }) {
+const skills =
+    "HTML5, CSS3, JavaScript, React, Bootstrap, Figma, Microsoft Azure, Microsoft Authentication Library, Microsoft Graph API, Postman (Test Script)";
+export default function Experience() {
     return (
-        <>
-            <div className="p-4 bg-inherit">
-                <h4 className="flex justify-center">SARCI</h4>
-                <p className="flex justify-center text-sm font-bold mt-4">
-                    Front-End Developer Intern
-                </p>
-                <p className="flex justify-center text-xs mb-4">
-                    (Dec 2022 - Feb 2023)
-                </p>
-                <p className="text-center">
-                    As a frontend developer, gained hands-on experience in
-                    design and development of responsive web application using
-                    React and Bootstrap.
-                </p>
-            </div>
+        <section
+            id="experience"
+            className="flex flex-col justify-center items-center py-20 px-8 text-center bg-stone-200">
+            <h2 className="text-center text-2xl font-bold text-orange-600 mb-20">
+                Experience
+            </h2>
+            <h3 className="text-xl font-bold text-stone-800">SARCI.in</h3>
 
-            <h4 className="flex justify-center mt-6">Skills</h4>
-            <ListItem items={skills} theme={theme} />
+            <div className="my-6 w-8 rounded-lg h-0.5 bg-orange-600"></div>
+            <h4 className="font-semibold text-stone-800">
+                Front-End Developer - Intern
+            </h4>
+            <p className="text-xs">(Dec 2022 - Feb 2023)</p>
+            <p className="mx-auto my-6 max-w-xl">
+                As a frontend developer, gained hands-on experience in design
+                and development of responsive web application using React and
+                Bootstrap.
+            </p>
 
-            <h4 className="flex justify-center mt-6">Certification</h4>
-            <ListItem items={["JavaScript", "React"]} theme={theme} />
-        </>
+            <h5 className="font-semibold text-stone-800">Skills</h5>
+            <p className="mx-auto max-w-xl">{skills}</p>
+
+            <h5 className="font-semibold text-stone-800 mt-6">Certification</h5>
+            <p>JavaScript and React</p>
+        </section>
     );
 }

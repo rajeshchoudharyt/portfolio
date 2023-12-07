@@ -1,20 +1,13 @@
 @tailwind base;
 
-h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
+h3,
 h4 {
-    font-size: 1em;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-h5 {
-    font-size: 0.875em;
+    color: black;
 }
 
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar::-webkit-scrollbar {
+    display: none;
+}
