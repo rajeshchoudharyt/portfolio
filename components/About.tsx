@@ -14,11 +14,11 @@ export default function About() {
                 className="w-auto h-48 rounded-full pointer-events-none"
             />
             <p className="flex flex-col max-w-xl gap-y-4 my-8">
-                <span className="text-2xl">Hello I'm</span>
+                <span className="text-2xl">{"Hello I'm"}</span>
                 <span className="text-4xl font-bold text-stone-800 mb-2">
                     Rajesh T
                 </span>
-                I'm a software developer with entry-level experience in
+                {"I'm"} a software developer with entry-level experience in
                 full-stack web development and mobile application development. I
                 have strong problem-solving skills and am a fast learner with a
                 Master of Technology degree in Computer Science and Engineering.
