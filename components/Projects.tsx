@@ -3,7 +3,7 @@ const projects = [
         title: "Portfolio",
         duration: "Oct 2023",
         description:
-            "A personal portfolio website developed using Next and Tailwind with multiple themes and styles.",
+            "A personal portfolio website developed using Next.js, TypeScript and Tailwind CSS",
         skills: "Next.js, TypeScript, Tailwind CSS",
         url: "https://github.com/rajeshchoudharyt/portfolio",
         live: "/portfolio",
