@@ -1,5 +1,25 @@
 const projects = [
     {
+        title: "Web Scraping - Restaurants Data",
+        duration: "May 2024",
+        description: "A web scraper to scrape restaurants data along with an automated script to search based on different locations.",
+        skills: "JavaScript, Puppeteer, Automation",
+    },
+    {
+        title: "Job Listing - Weekday Assignment",
+        duration: "May 2024",
+        description: "Completed an assignment given by www.weekday.works to clone a weekday job listings chrome extension with filter feature.",
+        skills: "Next.js, Material UI, API Integration, React",
+        url: "https://github.com/rajeshchoudharyt/weekday-search-job",
+        live: "https://weekday-search-job.vercel.app",
+    },
+    {
+        title: "Notes - Backend API",
+        duration: "Feb 2024",
+        description: "A backend API to manage Notes. Features: Login, Edit(with version history) and Share",
+        url: "https://github.com/rajeshchoudharyt/django-notes-api",
+    },
+    {
         title: "Portfolio",
         duration: "Oct 2023",
         description:
