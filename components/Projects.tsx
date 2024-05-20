@@ -8,7 +8,7 @@ const projects = [
     {
         title: "Job Listing - Weekday Assignment",
         duration: "May 2024",
-        description: "Completed an assignment given by www.weekday.works to clone a weekday job listings chrome extension with filter feature.",
+        description: "Completed an assignment given by www.weekday.works to clone a weekday job listings chrome extension with filter options.",
         skills: "Next.js, Material UI, API Integration, React",
         url: "https://github.com/rajeshchoudharyt/weekday-search-job",
         live: "https://weekday-search-job.vercel.app",
@@ -17,6 +17,7 @@ const projects = [
         title: "Notes - Backend API",
         duration: "Feb 2024",
         description: "A backend API to manage Notes. Features: Login, Edit(with version history) and Share",
+        skills: "Django, django-rest-framework, Python",
         url: "https://github.com/rajeshchoudharyt/django-notes-api",
     },
     {
