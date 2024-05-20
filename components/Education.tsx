@@ -18,7 +18,7 @@ export default function Education() {
                             Master of Technology
                         </h3>
 
-                        <p className="text-xs">(2021 - 2023)</p>
+                        <p className="text-xs">(2022 - 2023)</p>
                         <div className="my-5 w-8 rounded-lg h-0.5 bg-orange-600"></div>
                         <h4 className="font-semibold -mt-1 text-stone-800">
                             Ramaiah Institute of Technology
