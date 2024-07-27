@@ -13,7 +13,7 @@ export const metadata = {
 };
 
 const measurementId = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
-console.log("gid", measurementId);
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
