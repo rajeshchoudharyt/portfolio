@@ -21,11 +21,10 @@ export default function Experience() {
 				</p>
 				<br />
 				<p className="md:my-2">
-					Developed and designed responsive web application using
+					• Developed and designed responsive web application using
 					React and Figma
-					<br />
-					Completed advanced JavaScript and React certification
-					courses by codeWithMosh.com
+					<br />• Completed advanced JavaScript and React
+					certification courses by codeWithMosh.com
 				</p>
 				<br />
 				<p>
@@ -35,13 +34,15 @@ export default function Experience() {
 				</p>
 			</div>
 			<div className="max-w-[50rem] flex flex-col items-center">
-				<div className="flex justify-center items-center gap-x-2 mb-1">
+				<div className="flex justify-center items-center gap-x-2 mb-2">
 					<Image
 						src={headstarterLogo}
-						height={60}
+						height={40}
 						alt="headstarter logo"
 					/>
-					<p className="font-semibold text-black">Headstarter</p>
+					<p className="font-semibold text-black text-xl">
+						Headstarter
+					</p>
 				</div>
 				<p className="font-normal">Software Engineering Fellow</p>
 				<p className="text-sm sm:text-sm md:text-base">
@@ -49,18 +50,17 @@ export default function Experience() {
 				</p>
 				<br />
 				<p className="md:my-2">
-					Built 5 AI projects in 7 weeks fellowship dedicating 100+
+					• Built 5 AI projects in 7 weeks fellowship dedicating 100+
 					hours.
 					<br />
-					Built and Integrated ML and RAG Pipeline for a chatbot
+					• Built and Integrated ML and RAG Pipeline for a chatbot
 					leveraging real-time users’ feedback as knowledge base
 					utilizing Open Source ML Models (LLM) and Pinecone.
 					<br />
-					Developed and Deployed real-time communication group
+					• Developed and Deployed real-time communication group
 					messaging app with AI (LLM) and optimized performance to
 					achieve a latency &lt;500ms with database storage.
-					<br />
-					Participated in hackathons and weekly sessions from
+					<br />• Participated in hackathons and weekly sessions from
 					Engineers, CEO’s and Founder’s from startups and FAANG
 					companies.
 				</p>
