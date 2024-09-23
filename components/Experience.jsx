@@ -20,11 +20,12 @@ export default function Experience() {
 					(Dec 2022 - Feb 2023)
 				</p>
 				<br />
-				<p className="md:my-2 leading-8 text-left">
-					• Developed and designed responsive web application using
+				<p className="md:my-2 leading-9">
+					Developed and designed responsive web application using
 					React and Figma
-					<br />• Completed advanced JavaScript and React
-					certification courses by codeWithMosh.com
+					<br />
+					Completed advanced JavaScript and React certification
+					courses by codeWithMosh.com
 				</p>
 				<br />
 				<p>
@@ -47,18 +48,19 @@ export default function Experience() {
 					(July 2024 - Sep 2024)
 				</p>
 				<br />
-				<p className="md:my-2 leading-8 text-left">
-					• Built 5 AI projects in 7 weeks fellowship dedicating 100+
+				<p className="md:my-2 leading-9">
+					Built 5 AI projects in 7 weeks fellowship dedicating 100+
 					hours.
 					<br />
-					• Built and Integrated ML and RAG Pipeline for a chatbot
+					Built and Integrated ML and RAG Pipeline for a chatbot
 					leveraging real-time users’ feedback as knowledge base
 					utilizing Open Source ML Models (LLM) and Pinecone.
 					<br />
-					• Developed and Deployed real-time communication group
+					Developed and Deployed real-time communication group
 					messaging app with AI (LLM) and optimized performance to
 					achieve a latency &lt;500ms with database storage.
-					<br />• Participated in hackathons and weekly sessions from
+					<br />
+					Participated in hackathons and weekly sessions from
 					Engineers, CEO’s and Founder’s from startups and FAANG
 					companies.
 				</p>
