@@ -20,7 +20,7 @@ export default function Experience() {
 					(Dec 2022 - Feb 2023)
 				</p>
 				<br />
-				<p className="md:my-2">
+				<p className="md:my-2 leading-5">
 					• Developed and designed responsive web application using
 					React and Figma
 					<br />• Completed advanced JavaScript and React
@@ -40,16 +40,14 @@ export default function Experience() {
 						height={40}
 						alt="headstarter logo"
 					/>
-					<p className="font-semibold text-black text-xl">
-						Headstarter
-					</p>
+					<p className="font-semibold text-xl">Headstarter</p>
 				</div>
 				<p className="font-normal">Software Engineering Fellow</p>
 				<p className="text-sm sm:text-sm md:text-base">
 					(July 2024 - Sep 2024)
 				</p>
 				<br />
-				<p className="md:my-2">
+				<p className="md:my-2 leading-5">
 					• Built 5 AI projects in 7 weeks fellowship dedicating 100+
 					hours.
 					<br />
